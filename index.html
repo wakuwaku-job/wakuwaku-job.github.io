@@ -1,0 +1,425 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>WakuWaku Japanese Speaking Job - タイの日本語人材と企業をつなぐ求人プラットフォーム</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@400;500;700&display=swap');
+        body {
+            font-family: 'Noto Sans JP', sans-serif;
+        }
+        :root {
+            --wakuwaku-red: #E60012;
+        }
+    </style>
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        'wakuwaku': {
+                            50: '#FFF5F5',
+                            100: '#FFE6E6',
+                            200: '#FFB3B3',
+                            300: '#FF8080',
+                            400: '#FF4D4D',
+                            500: '#E60012',
+                            600: '#CC0000',
+                            700: '#990000',
+                            800: '#660000',
+                            900: '#330000'
+                        }
+                    }
+                }
+            }
+        }
+    </script>
+</head>
+<body class="bg-gray-50">
+    <!-- ヘッダーナビゲーション -->
+    <header class="bg-white shadow-sm fixed w-full z-50">
+        <nav class="container mx-auto px-4 py-4 flex justify-between items-center">
+            <div class="h-8">
+                <img src="wakuwaku-nav-logo.svg" alt="WakuWaku" class="h-full">
+            </div>
+            <div class="hidden md:flex space-x-6">
+                <a href="#features" class="text-gray-600 hover:text-wakuwaku-500">特徴</a>
+                <a href="#benefits" class="text-gray-600 hover:text-wakuwaku-500">メリット</a>
+                <a href="#process" class="text-gray-600 hover:text-wakuwaku-500">利用の流れ</a>
+                <a href="#contact" class="text-gray-600 hover:text-wakuwaku-500">お問い合わせ</a>
+            </div>
+            <div class="flex space-x-4">
+                <a href="https://th.wakuwaku.world/ja/login/recruiter" target="_blank" class="hidden md:inline-block px-4 py-2 text-wakuwaku-500 hover:text-wakuwaku-600">ログイン</a>
+                <a href="https://th.wakuwaku.world/ja/registration/recruiter" target="_blank" class="px-4 py-2 bg-wakuwaku-500 text-white rounded-lg hover:bg-wakuwaku-600">無料で始める</a>
+            </div>
+        </nav>
+    </header>
+
+    <!-- メインビジュアル -->
+    <section class="pt-24 md:pt-32 pb-16 md:pb-24 bg-gradient-to-br from-wakuwaku-50 to-white">
+        <div class="container mx-auto px-4">
+            <div class="flex flex-col md:flex-row items-center">
+                <div class="md:w-1/2 mb-8 md:mb-0">
+                    <h1 class="text-4xl md:text-5xl font-bold text-gray-800 mb-6">
+                        タイの日本語人材と<br>企業をつなぐ<br>求人プラットフォーム
+                    </h1>
+                    <p class="text-lg text-gray-600 mb-8">
+                        日本語を話せるタイ人材と、グローバルに活躍する企業をマッチング。<br>
+                        スムーズな採用活動をサポートします。
+                    </p>
+                    <div class="flex flex-col sm:flex-row gap-4">
+                        <a href="https://th.wakuwaku.world/ja/registration/recruiter" target="_blank" class="px-8 py-4 bg-wakuwaku-500 text-white rounded-lg hover:bg-wakuwaku-600 text-center">
+                            企業登録はこちら
+                        </a>
+                        <a href="#" class="px-8 py-4 border border-wakuwaku-500 text-wakuwaku-500 rounded-lg hover:bg-wakuwaku-50 text-center">
+                            サービス詳細
+                        </a>
+                    </div>
+                </div>
+                <div class="md:w-1/2">
+                    <img src="top-image.jpeg" alt="WakuWaku Japanese Speaking Job" class="rounded-lg shadow-lg w-full max-w-[1024px] aspect-[1024/640] object-cover">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- 特徴セクション -->
+    <section id="features" class="py-16 md:py-24">
+        <div class="container mx-auto px-4">
+            <h2 class="text-3xl md:text-4xl font-bold text-center text-gray-800 mb-12">
+                WakuWakuの特徴
+            </h2>
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+                <div class="bg-white p-8 rounded-lg shadow-sm">
+                    <div class="text-wakuwaku-500 text-4xl mb-4">
+                        <i class="fas fa-search"></i>
+                    </div>
+                    <h3 class="text-xl font-bold mb-4">効率的な人材検索</h3>
+                    <p class="text-gray-600">
+                        日本語レベル、職種、経験年数など、詳細な条件で最適な人材を見つけることができます。
+                    </p>
+                </div>
+                <div class="bg-white p-8 rounded-lg shadow-sm">
+                    <div class="text-wakuwaku-500 text-4xl mb-4">
+                        <i class="fas fa-comments"></i>
+                    </div>
+                    <h3 class="text-xl font-bold mb-4">直接コミュニケーション</h3>
+                    <p class="text-gray-600">
+                        候補者とチャットで直接やり取りが可能。スムーズな採用プロセスを実現します。
+                    </p>
+                </div>
+                <div class="bg-white p-8 rounded-lg shadow-sm">
+                    <div class="text-wakuwaku-500 text-4xl mb-4">
+                        <i class="fas fa-calendar-alt"></i>
+                    </div>
+                    <h3 class="text-xl font-bold mb-4">面接調整機能</h3>
+                    <p class="text-gray-600">
+                        オンラインで簡単に面接日程を調整。リマインダー機能で確実なフォローアップ。
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- メリットセクション -->
+    <section id="benefits" class="py-16 md:py-24 bg-gray-50">
+        <div class="container mx-auto px-4">
+            <h2 class="text-3xl md:text-4xl font-bold text-center text-gray-800 mb-12">
+                選ばれる理由
+            </h2>
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-12">
+                <div class="flex gap-6">
+                    <div class="text-wakuwaku-500 text-2xl">
+                        <i class="fas fa-check-circle"></i>
+                    </div>
+                    <div>
+                        <h3 class="text-xl font-bold mb-3">豊富な日本語人材</h3>
+                        <p class="text-gray-600">
+                            タイで最大級の日本語人材データベースを保有。様々な業種・職種の人材とマッチングが可能です。
+                        </p>
+                    </div>
+                </div>
+                <div class="flex gap-6">
+                    <div class="text-wakuwaku-500 text-2xl">
+                        <i class="fas fa-check-circle"></i>
+                    </div>
+                    <div>
+                        <h3 class="text-xl font-bold mb-3">スカウト機能</h3>
+                        <p class="text-gray-600">
+                            条件に合う候補者を直接スカウト。積極的な採用活動を支援します。
+                        </p>
+                    </div>
+                </div>
+                <div class="flex gap-6">
+                    <div class="text-wakuwaku-500 text-2xl">
+                        <i class="fas fa-check-circle"></i>
+                    </div>
+                    <div>
+                        <h3 class="text-xl font-bold mb-3">オンライン完結</h3>
+                        <p class="text-gray-600">
+                            求人作成から面接調整まで、全てのプロセスをオンラインで完結できます。
+                        </p>
+                    </div>
+                </div>
+                <div class="flex gap-6">
+                    <div class="text-wakuwaku-500 text-2xl">
+                        <i class="fas fa-check-circle"></i>
+                    </div>
+                    <div>
+                        <h3 class="text-xl font-bold mb-3">モバイル対応</h3>
+                        <p class="text-gray-600">
+                            スマートフォンやタブレットでも快適に操作可能。外出先でもスムーズに対応できます。
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- 利用の流れ -->
+    <section id="process" class="py-16 md:py-24">
+        <div class="container mx-auto px-4">
+            <h2 class="text-3xl md:text-4xl font-bold text-center text-gray-800 mb-12">
+                ご利用の流れ
+            </h2>
+            <div class="max-w-3xl mx-auto">
+                <div class="relative">
+                    <div class="absolute left-4 inset-y-0 w-0.5 bg-wakuwaku-200"></div>
+                    <div class="space-y-8">
+                        <div class="relative flex items-start">
+                            <div class="flex items-center justify-center w-8 h-8 bg-wakuwaku-500 rounded-full -ml-4">
+                                <span class="text-white text-sm">1</span>
+                            </div>
+                            <div class="ml-6">
+                                <h3 class="text-lg font-bold mb-2">企業登録</h3>
+                                <p class="text-gray-600">
+                                    基本情報を入力して企業アカウントを作成します。
+                                </p>
+                            </div>
+                        </div>
+                        <div class="relative flex items-start">
+                            <div class="flex items-center justify-center w-8 h-8 bg-wakuwaku-500 rounded-full -ml-4">
+                                <span class="text-white text-sm">2</span>
+                            </div>
+                            <div class="ml-6">
+                                <h3 class="text-lg font-bold mb-2">求人票作成</h3>
+                                <p class="text-gray-600">
+                                    募集要項を入力し、魅力的な求人票を作成します。
+                                </p>
+                            </div>
+                        </div>
+                        <div class="relative flex items-start">
+                            <div class="flex items-center justify-center w-8 h-8 bg-wakuwaku-500 rounded-full -ml-4">
+                                <span class="text-white text-sm">3</span>
+                            </div>
+                            <div class="ml-6">
+                                <h3 class="text-lg font-bold mb-2">候補者とマッチング</h3>
+                                <p class="text-gray-600">
+                                    応募者の確認やスカウトで候補者とマッチングします。
+                                </p>
+                            </div>
+                        </div>
+                        <div class="relative flex items-start">
+                            <div class="flex items-center justify-center w-8 h-8 bg-wakuwaku-500 rounded-full -ml-4">
+                                <span class="text-white text-sm">4</span>
+                            </div>
+                            <div class="ml-6">
+                                <h3 class="text-lg font-bold mb-2">面接・採用</h3>
+                                <p class="text-gray-600">
+                                    オンラインで面接日程を調整し、採用まで進めることができます。
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- CTA -->
+    <section class="py-16 md:py-24 bg-wakuwaku-500">
+        <div class="container mx-auto px-4 text-center">
+            <h2 class="text-3xl md:text-4xl font-bold text-white mb-8">
+                今すぐ始めましょう
+            </h2>
+            <p class="text-xl text-wakuwaku-100 mb-8">
+                タイの優秀な日本語人材があなたの企業を待っています
+            </p>
+            <a href="https://th.wakuwaku.world/ja/registration/recruiter" target="_blank" class="inline-block px-8 py-4 bg-white text-wakuwaku-500 rounded-lg hover:bg-gray-100 font-bold">
+                無料で企業登録
+            </a>
+        </div>
+    </section>
+
+    <!-- お問い合わせフォーム -->
+    <section id="contact" class="py-16 md:py-24">
+        <div class="container mx-auto px-4">
+            <h2 class="text-3xl md:text-4xl font-bold text-center text-gray-800 mb-12">
+                お問い合わせ
+            </h2>
+            <div class="max-w-3xl mx-auto">
+                <!-- 送信完了メッセージ -->
+                <div id="thankYouMessage" class="hidden bg-green-50 border border-green-200 rounded-lg p-8 text-center">
+                    <div class="text-green-600 text-4xl mb-4">
+                        <i class="fas fa-check-circle"></i>
+                    </div>
+                    <h3 class="text-xl font-bold text-gray-800 mb-2">お問い合わせありがとうございます</h3>
+                    <p class="text-gray-600">
+                        内容を確認次第、担当者よりご連絡させていただきます。<br>
+                        自動返信メールをお送りしましたので、ご確認ください。
+                    </p>
+                </div>
+
+                <!-- お問い合わせフォーム -->
+                <form id="contactForm" action="https://docs.google.com/forms/u/0/d/e/1FAIpQLSc7C01Uc2kbCevvkU6oAZ0ADT2AQwnmM-lV4DA6kFlyPOmEkQ/formResponse" method="POST" class="bg-white rounded-lg shadow-sm p-8 space-y-6">
+                    <div class="space-y-4">
+                        <div>
+                            <label for="entry.1827197204" class="block text-sm font-medium text-gray-700 mb-1">お名前<span class="text-wakuwaku-500 ml-1">*</span></label>
+                            <input type="text" name="entry.1827197204" id="entry.1827197204" required class="mt-1 block w-full rounded-md border-gray-300 shadow-sm focus:border-wakuwaku-500 focus:ring-wakuwaku-500">
+                        </div>
+                        <div>
+                            <label for="entry.966425710" class="block text-sm font-medium text-gray-700 mb-1">会社名<span class="text-wakuwaku-500 ml-1">*</span></label>
+                            <input type="text" name="entry.966425710" id="entry.966425710" required class="mt-1 block w-full rounded-md border-gray-300 shadow-sm focus:border-wakuwaku-500 focus:ring-wakuwaku-500">
+                        </div>
+                        <div>
+                            <label for="entry.679029461" class="block text-sm font-medium text-gray-700 mb-1">Eメール<span class="text-wakuwaku-500 ml-1">*</span></label>
+                            <input type="email" name="entry.679029461" id="entry.679029461" required class="mt-1 block w-full rounded-md border-gray-300 shadow-sm focus:border-wakuwaku-500 focus:ring-wakuwaku-500">
+                        </div>
+                        <div>
+                            <label for="entry.495636437" class="block text-sm font-medium text-gray-700 mb-1">お問い合わせ内容<span class="text-wakuwaku-500 ml-1">*</span></label>
+                            <div class="mt-2 space-y-2">
+                                <div class="flex items-center">
+                                    <input type="radio" name="entry.495636437" id="inquiry_1" value="資料がほしい" required class="h-4 w-4 text-wakuwaku-500 focus:ring-wakuwaku-500 border-gray-300">
+                                    <label for="inquiry_1" class="ml-2 text-sm text-gray-700">資料がほしい</label>
+                                </div>
+                                <div class="flex items-center">
+                                    <input type="radio" name="entry.495636437" id="inquiry_2" value="サービス詳細を知りたい" required class="h-4 w-4 text-wakuwaku-500 focus:ring-wakuwaku-500 border-gray-300">
+                                    <label for="inquiry_2" class="ml-2 text-sm text-gray-700">サービス詳細を知りたい</label>
+                                </div>
+                                <div class="flex items-center">
+                                    <input type="radio" name="entry.495636437" id="inquiry_3" value="料金プランを知りたい" required class="h-4 w-4 text-wakuwaku-500 focus:ring-wakuwaku-500 border-gray-300">
+                                    <label for="inquiry_3" class="ml-2 text-sm text-gray-700">料金プランを知りたい</label>
+                                </div>
+                                <div class="flex items-center">
+                                    <input type="radio" name="entry.495636437" id="inquiry_4" value="相談したい（採用方法、人材戦略、組織づくり, etc）" required class="h-4 w-4 text-wakuwaku-500 focus:ring-wakuwaku-500 border-gray-300">
+                                    <label for="inquiry_4" class="ml-2 text-sm text-gray-700">相談したい（採用方法、人材戦略、組織づくり, etc）</label>
+                                </div>
+                            </div>
+                        </div>
+                        <div>
+                            <label for="entry.625002768" class="block text-sm font-medium text-gray-700 mb-1">メッセージ<span class="text-wakuwaku-500 ml-1">*</span></label>
+                            <textarea name="entry.625002768" id="entry.625002768" rows="4" required class="mt-1 block w-full rounded-md border-gray-300 shadow-sm focus:border-wakuwaku-500 focus:ring-wakuwaku-500"></textarea>
+                        </div>
+                    </div>
+                    <div class="mt-8 flex justify-center">
+                        <button type="submit" id="submitButton" class="inline-flex items-center justify-center py-3 px-8 border border-transparent shadow-sm text-base font-medium rounded-md text-white bg-wakuwaku-500 hover:bg-wakuwaku-600 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-wakuwaku-500 disabled:opacity-50 disabled:cursor-not-allowed">
+                            <span id="submitText">送信する</span>
+                            <span id="loadingSpinner" class="hidden ml-2">
+                                <svg class="animate-spin h-5 w-5 text-white" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24">
+                                    <circle class="opacity-25" cx="12" cy="12" r="10" stroke="currentColor" stroke-width="4"></circle>
+                                    <path class="opacity-75" fill="currentColor" d="M4 12a8 8 0 018-8V0C5.373 0 0 5.373 0 12h4zm2 5.291A7.962 7.962 0 014 12H0c0 3.042 1.135 5.824 3 7.938l3-2.647z"></path>
+                                </svg>
+                            </span>
+                        </button>
+                    </div>
+                    <p class="mt-4 text-sm text-gray-500 text-center">
+                        ※ 送信後、自動返信メールをお送りいたします。
+                    </p>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <script>
+        document.getElementById('contactForm').addEventListener('submit', async function(e) {
+            e.preventDefault();
+            
+            // フォームの要素を取得
+            const form = this;
+            const submitButton = document.getElementById('submitButton');
+            const submitText = document.getElementById('submitText');
+            const loadingSpinner = document.getElementById('loadingSpinner');
+            const thankYouMessage = document.getElementById('thankYouMessage');
+            
+            // 送信ボタンを無効化し、ローディングスピナーを表示
+            submitButton.disabled = true;
+            submitText.textContent = '送信中';
+            loadingSpinner.classList.remove('hidden');
+            
+            try {
+                // フォームデータを取得
+                const formData = new FormData(form);
+                
+                // Google FormsのURLにPOSTリクエストを送信
+                await fetch(form.action, {
+                    method: 'POST',
+                    mode: 'no-cors', // Google Formsは異なるオリジンなのでno-corsモードを使用
+                    body: formData
+                });
+                
+                // フォームを非表示にし、完了メッセージを表示
+                form.classList.add('hidden');
+                thankYouMessage.classList.remove('hidden');
+                
+                // フォームをリセット
+                form.reset();
+                
+            } catch (error) {
+                console.error('送信エラー:', error);
+                alert('送信中にエラーが発生しました。お手数ですが、時間をおいて再度お試しください。');
+                
+                // エラー時はボタンを再度有効化
+                submitButton.disabled = false;
+                submitText.textContent = '送信する';
+                loadingSpinner.classList.add('hidden');
+            }
+        });
+    </script>
+
+    <!-- フッター -->
+    <footer class="bg-gray-800 text-gray-300 py-12">
+        <div class="container mx-auto px-4">
+            <div class="grid grid-cols-1 md:grid-cols-4 gap-8">
+                <div>
+                    <h3 class="text-xl font-bold text-white mb-4">WakuWaku</h3>
+                    <p class="text-sm">
+                        タイの日本語人材と企業をつなぐ<br>求人プラットフォーム
+                    </p>
+                </div>
+                <div>
+                    <h4 class="font-bold mb-4">サービス</h4>
+                    <ul class="space-y-2 text-sm">
+                        <li><a href="#" class="hover:text-white">企業登録</a></li>
+                        <li><a href="#" class="hover:text-white">求人掲載</a></li>
+                        <li><a href="#" class="hover:text-white">人材検索</a></li>
+                        <li><a href="#" class="hover:text-white">スカウト</a></li>
+                    </ul>
+                </div>
+                <div>
+                    <h4 class="font-bold mb-4">サポート</h4>
+                    <ul class="space-y-2 text-sm">
+                        <li><a href="#" class="hover:text-white">よくある質問</a></li>
+                        <li><a href="#" class="hover:text-white">お問い合わせ</a></li>
+                        <li><a href="terms.html" class="hover:text-white">利用規約</a></li>
+                        <li><a href="privacy-policy.html" class="hover:text-white">プライバシーポリシー</a></li>
+                    </ul>
+                </div>
+                <div>
+                    <h4 class="font-bold mb-4">フォローする</h4>
+                    <div class="flex space-x-4">
+                        <a href="https://www.facebook.com/wakuwakuj" target="_blank" class="hover:text-white"><i class="fab fa-facebook"></i></a>
+                        <a href="https://www.tiktok.com/@waku_jpjobs" target="_blank" class="hover:text-white"><i class="fab fa-tiktok"></i></a>
+                    </div>
+                </div>
+            </div>
+            <div class="border-t border-gray-700 mt-8 pt-8 text-sm text-center">
+                <p>&copy; 2024 WakuWaku Japanese Speaking Job. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
+

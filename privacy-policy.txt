@@ -1,0 +1,181 @@
+Privacy Policy
+This website uses cookies. We use cookies to personalise content and ads, to provide social media features and to analyse our traffic. We also share information about your use of our site with our social media, advertising and analytics partners who may combine it with other information that youÅfve provided to them or that theyÅfve collected from your use of their services.
+
+Cookies are small text files that can be used by websites to make a user's experience more efficient.
+
+The law states that we can store cookies on your device if they are strictly necessary for the operation of this site. For all other types of cookies we need your permission.
+
+This site uses different types of cookies. Some cookies are placed by third party services that appear on our pages.
+
+You can at any time change or withdraw your consent from the Cookie Declaration on our website.
+
+Learn more about who we are, how you can contact us and how we process personal data in our Privacy Policy.
+
+Please state your consent ID and date when you contact us regarding your consent.
+
+Your consent applies to the following domains: th.wakuwaku.world
+
+Your current state: Allow all. 
+Your consent ID: rWTqBqno8JInqxs2n0Jdl1k6URiBUwDxLCv/Szh9roHZFNFrHQQdOA==
+Consent date: Wednesday, February 12, 2025 at 10:12:24 AM GMT+7
+
+Change your consent  |  Withdraw your consent
+
+Cookie declaration last updated on 2/24/25 by Cookiebot:
+
+Necessary (38)
+
+Necessary cookies help make a website usable by enabling basic functions like page navigation and access to secure areas of the website. The website cannot function properly without these cookies.
+
+Name	Provider	Purpose	Maximum Storage Duration	Type
+#-#	YouTube	Used to track userÅfs interaction with embedded content.	Session	HTML Local Storage
+__Secure-ROLLOUT_TOKEN	YouTube	Pending	180 days	HTTP Cookie
+_fbp	Meta Platforms, Inc.	Used by Facebook to deliver a series of advertisement products such as real time bidding from third party advertisers.	3 months	HTTP Cookie
+_ga	Google	Registers a unique ID that is used to generate statistical data on how the visitor uses the website.	2 years	HTTP Cookie
+_ga_#	Google	Used by Google Analytics to collect data on the number of times a user has visited the website as well as dates for the first and most recent visit.	2 years	HTTP Cookie
+_gat	Google	Used by Google Analytics to throttle request rate	1 day	HTTP Cookie
+_gcl_au	Google	Used by Google AdSense for experimenting with advertisement efficiency across websites using their services.	3 months	HTTP Cookie
+_gid	Google	Registers a unique ID that is used to generate statistical data on how the visitor uses the website.	1 day	HTTP Cookie
+1.gif	Cookiebot	Used to count the number of sessions to the website, necessary for optimizing CMP product delivery.	Session	Pixel Tracker
+ar_debug	Google	Checks whether a technical debugger-cookie is present.	3 months	HTTP Cookie
+collect	Google	Used to send data to Google Analytics about the visitor's device and behavior. Tracks the visitor across devices and marketing channels.	Session	Pixel Tracker
+CookieConsent	Cookiebot	Stores the user's cookie consent state for the current domain	1 year	HTTP Cookie
+iU5q-!O9@$	YouTube	Registers a unique ID to keep statistics of what videos from YouTube the user has seen.	Session	HTML Local Storage
+LAST_RESULT_ENTRY_KEY	YouTube	Used to track userÅfs interaction with embedded content.	Session	HTTP Cookie
+lastExternalReferrer	Meta Platforms, Inc.	Detects how the user reached the website by registering their last URL-address.	Persistent	HTML Local Storage
+lastExternalReferrerTime	Meta Platforms, Inc.	Detects how the user reached the website by registering their last URL-address.	Persistent	HTML Local Storage
+LogsDatabaseV2:V#||LogsRequestsStore	YouTube	Used to track userÅfs interaction with embedded content.	Persistent	IndexedDB
+maps/gen_204	Google	Used in context with the website's map integration. The cookie stores user interaction with the map in order to optimize its functionality.	Session	Pixel Tracker
+nextId	YouTube	Used to track userÅfs interaction with embedded content.	Session	HTTP Cookie
+NID	Google	Registers a unique ID that identifies a returning user's device. The ID is used for targeted ads.	6 months	HTTP Cookie
+rc::a	Google	This cookie is used to distinguish between humans and bots. This is beneficial for the website, in order to make valid reports on the use of their website.	Persistent	HTML Local Storage
+rc::c	Google	This cookie is used to distinguish between humans and bots.	Session	HTML Local Storage
+remote_sid	YouTube	Necessary for the implementation and functionality of YouTube video-content on the website.	Session	HTTP Cookie
+requests	YouTube	Used to track userÅfs interaction with embedded content.	Session	HTTP Cookie
+ServiceWorkerLogsDatabase#SWHealthLog	YouTube	Necessary for the implementation and functionality of YouTube video-content on the website.	Persistent	IndexedDB
+TESTCOOKIESENABLED	YouTube	Used to track userÅfs interaction with embedded content.	1 day	HTTP Cookie
+thwaku_prod_lang	th.wakuwaku.world	Pending	Session	HTTP Cookie
+VISITOR_INFO1_LIVE	YouTube	Tries to estimate the users' bandwidth on pages with integrated YouTube videos.	180 days	HTTP Cookie
+YSC	YouTube	Registers a unique ID to keep statistics of what videos from YouTube the user has seen.	Session	HTTP Cookie
+yt.innertube::nextId	YouTube	Registers a unique ID to keep statistics of what videos from YouTube the user has seen.	Persistent	HTML Local Storage
+YtIdbMeta#databases	YouTube	Used to track userÅfs interaction with embedded content.	Persistent	IndexedDB
+yt-remote-cast-available	YouTube	Stores the user's video player preferences using embedded YouTube video	Session	HTML Local Storage
+yt-remote-cast-installed	YouTube	Stores the user's video player preferences using embedded YouTube video	Session	HTML Local Storage
+yt-remote-connected-devices	YouTube	Stores the user's video player preferences using embedded YouTube video	Persistent	HTML Local Storage
+yt-remote-device-id	YouTube	Stores the user's video player preferences using embedded YouTube video	Persistent	HTML Local Storage
+yt-remote-fast-check-period	YouTube	Stores the user's video player preferences using embedded YouTube video	Session	HTML Local Storage
+yt-remote-session-app	YouTube	Stores the user's video player preferences using embedded YouTube video	Session	HTML Local Storage
+yt-remote-session-name	YouTube	Stores the user's video player preferences using embedded YouTube video	Session	HTML Local Storage
+This Privacy Policy (this ÅgPolicyÅh) describes how your information is collected, used, and shared when you use our services or products (collectively, ÅgOur ServicesÅh).
+
+This Policy only applies to any information that you provide to us or that are collected through your use of Our Services, including Personal Information. If you provide your information to any external services operated by third-party other than the Company (ÅgExternal Service ProvidersÅh), please refer to the privacy policies or terms separately established by the respective External Service Providers.
+
+Who are we?
+We are TalentEx Recruitment (Thailand) Co., Ltd., a corporation having its registered office at 2 Jasmine Building, 12th Floor, Soi Prasanmitr (Sukhumvit 23), Sukhumvit Road, North Klongtoey, Wattana, Bangkok 10110 (ÅgweÅh, Ågus,Åh or ÅgourÅh).
+What are Our Services?
+Our Services mean any services or products provided by us to you through mobile applications or websites operated by us, such as the platform service for recruiting companies and job seekers ÅgWakuWakuÅh.
+What is Personal Information?
+In this Policy, ÅgPersonal InformationÅh means information collected by us relating to an identified or identifiable natural person who might be, directly or indirectly, identified in particular by reference to an identifier such as a name or identification number, or to one or more factors specific to the physical, physiological, genetic, mental, economic, cultural, or social identity of that natural person.
+What information do we collect about you?
+We will collect the following information about you:
+Information you provide to us directly
+We will collect the following information about you which you provide to us:
+Profile Information: such as name, mailing address, phone number, email address, login name, login passwords, birth date, and photo.
+Personal Information with special protections: you may choose to provide to us through Our Services your information of a sensitive nature such as racial or ethnic origin, religious views, political views, or your health. These could be subject to special protections under the laws of your country.
+Information of Communication with Us: such as information about the communications between you and us including your inquiry, compliments, and other contact to us.
+Information about your use of Our Services or Our Websites
+We will collect the following information created when you use Our Services:
+Usage Information: such as access dates and times, app features or pages viewed, apps and other system activity, type of browser. In some cases, we collect this information through cookies, beacons, tags, and similar technologies that create and maintain unique identifiers;
+Device Information: such as information about the devices you use to access Our Services, including the hardware models, device IP address, operating systems and versions, software, file names and versions, preferred languages, unique device identifiers, advertising identifiers, serial numbers, device motion information, and mobile network information;
+Communication Information: such as information about the communications between you and other users or third party through Our Services, such as texts, profiles, messages, photographs, voice, video, and other information contents;
+Location Information: such as your precise or approximate location information as determined through data such as GPS, IP address, and WiFi. You may use Our Services without enabling us to collect your location information. However, this may affect the functionality available on your use of Our Services;
+Information provided from Extra Service providers
+We will collect information about you provided from External Service Providers due to your consent, including our business partners through which you create or access your account on Our Services, such as payment providers, social media services, or apps or websites who use our APIs or whose API we uses (such as Facebook, Inc. or Google Inc. etc.), publicly available sources, marketing service providers.
+We will notify you or make announcement separately if the provision of your Personal Information is a statutory or contractual requirement, or a requirement necessary to enter into an agreement, as well as the possible consequences of failure to provide such data.
+We will not use automated decision-making, including profiling in processing your Personal Information.
+On which legal basis do we process Personal Information?
+We wil only process your Personal Information based on the following legal bases:
+obtaining your prior unambiguous consent;
+necessity to perform our contractual obligations to provide Our Services or to take pre-contractual procedures upon your request;
+necessity to comply with our legal or regulatory obligations;
+necessity to protect your vital interests or those of another natural person;
+necessity to perform a task carried out in the public interest;
+necessity to pursue our legitimate interests (please contact us regarding the balancing test for legitimate interests).
+Further, if you are a user of Our Services in the EU, we will process your Personal Information of a sensitive nature provided by you in accordance with special criteria as prescribed in the GDPR.
+How do we use information about you?
+We will use the following information about you we collect for the following purposes:
+Providing, personalizing, and improving Our Services
+We will use your Profile Information, Information of Communication with Us, Usage Information, Device Information, Communication Information, Location Information, and Information provided from Extra Service Providers for the purpose of providing, personalizing, and improving Our Services; these include the following purposes:
+to provide Our Services to you and notices regarding Our Services;
+to improve, research, and develop Our Services;
+to customize or personalize the contents or features of Our Services;
+to confirm and verify your registered information on Our Services or Our Websites;
+to charge fees and other payment relating to Our Services;
+Advertising, marketing and analyzing
+We will use your Profile Information, Information of Communication with Us, Usage Information, Device Information, Communication Information, Location Information, and Information provided from Extra Service Providers for the purpose of providing, personalizing, and improving Our Services; these include the following purposes:
+to customize advertisement to adapt your characteristics and interests;
+to help advertisers measure and analyze the effectiveness and distribution of their ads and services and understand the types of people who use their services and how people interact with their services;
+We will not sell or share your Personal Information to third parties for third party direct marketing purposes.
+Research and development
+We will use your Profile Information, Information of Communication with Us, Usage Information, Device Information, Communication Information, Location Information, and Information provided from Extra Service Providers for the purpose of testing, research, analysis and service or product development.
+Communication with you
+We will use your Profile Information, Information of Communication with Us, Usage Information, Device Information, Communication Information, Location Information, and Information provided from Extra Service Providers for the purpose of communication between you and us; these include the following purposes:
+to notify you of our new products or services, our products or services of which you are not a user, user participatory events, and other information relating our business;
+to notify you of amendments in Terms of Use of Our Services or this Policy;
+to notify you in the event of termination, suspension, or cancellation of Our Services, or other important information relating to Our Services or us;
+to respond to inquiries from you regarding Our Services or us;
+Security and Safety
+We will use your Profile information, Information of Communication with Us, Usage Information, Device Information, Communication Information, Location information, and Information provided from Extra Service Providers for the purpose of maintaining the safety, security, and integrity of Our Services and Users; these include the following purposes:
+to prevent inappropriate use of Our Services by users;
+to prevent infringing the right of users or third party through Our Services;
+Legal proceedings and requirements
+We will use your Profile information, Information of Communication with Us, Usage Information, Device Information, Communication Information, Location Information, and Information provided from Extra Service Providers for the purpose of investigation or addressing claims or disputes relating to your use of Our Services, or as otherwise allowed or requested by the applicable laws or regulations, judicial or government entities, and official inquiries.
+do we store, process, or transfer information about you?
+We will store and process information about you we collect in your region. However, in some cases, we will transfer to, store at and process information about you in the following countries outside your region: [Thailand]; [Malaysia]; [Japan]; [Russia]; [Georgia]; [Republic of Armenia]; [Poland]; and [Singapore]. In such cases, and if you are a user of Our Services in the EU, we will implement appropriate safeguards on your Personal Information by executing with the transferee the standard data protection clauses approved by the European Commission; if you wish to receive a copy of documentation related to these safeguards, please contact us using the information provided in Åg12. Contact DetailÅh section below.
+What do we do to keep your Personal Information secure?
+We properly maintain Personal Information for the Purpose by assigning a person in charge of managing Personal Information and takes all adequate and necessary security measures to maintain integrity and confidentiality of Personal Information.
+However, please note that although we take appropriate steps to protect your Personal Information, no website, product, device, online application or transmission of information, computer system or wireless connection is completely secure and therefore we cannot guarantee the security of your Personal Information.
+How long do we store your Personal Information?
+We retain your Personal Information for the period necessary to fulfil the purposes for collecting and processing your Personal Information as prescribed in Åg6. How do we use information about you?Åh section above or for the period required by the applicable laws or regulations. Specific retention periods are determined based on the following considerations: the purpose for collecting and processing the Personal Information, the nature of the Personal Information, and the necessity of retaining the Personal Information for legal or business reasons.
+When your Personal Information is no longer required for the purposes or by the applicable laws or regulations, we will delete it in accordance with the applicable laws or regulations.
+What are your rights and how can you exercise them?
+What are your rights?
+You have the following rights regarding your Personal Information we collect and store under the applicable laws and regulations (and GDPR if you are a user of Our Services
+the right to obtain information regarding processing of your Personal Information;
+the right to access to your Personal Information;
+the right to request the correction or the update of your inaccurate Personal Information;
+the right to request the deletion of your Personal Information (if certain conditions are satisfied);
+the right to restrict on processing of your Personal Information (if certain conditions are satisfied);
+the right to object to the processing of your Personal Information (if certain conditions are satisfied);
+the right to data portability (if certain conditions are satisfied), which is the right to request the return of the Personal Information you have provided to us in a structured, commonly used and machine-readable format and to request the transmission of such Personal Information to a third party and subject to your own confidentiality obligations;
+the right to withdraw the consent which you have given to us at any time; provided, however, your withdrawal office consent will not affect the lawfulness of processing prior to such withdrawal;
+the right not to be subject to a decision based solely on automated processing, including profiling, which produces legal effects concerning you or similarly significantly affects you, except the following cases: in case the decision is necessary for entering into, or performance of, a contract between you and us; in case the decision is authorized by Union or Member State law to which we are subject and which also lays down suitable measures to safeguard your rights, freedoms, and legitimate interests; or the decision is based on your explicit consent.
+How can you exercise your rights?
+If you intend to exercise any of the above rights, please contact us using the information provided in Åg12. Contact DetailÅh section below.
+Complaints
+If you are not satisfied with how we process your Personal Information, you may contact us on Åg12. Contact DetailÅh section below; if you are a user of Our Services in the EU, alternatively you may file a complaint with the Data Protection Supervisory Authority of the Member State of your habitual residence, place of work, or place of the alleged infringement
+Changes to this Privacy Policy
+We amend this Policy from time to time. We will notify you of the amendment through Our Services, or other measure determined by the Company in case we make any substantive or material amendments. Any amendment will become effective upon our posting of the amended privacy policy.
+Contact Details
+If you have any questions regarding this Policy, please contact us through the following Data Controller or Representative set out below:
+Data Controller
+TalentEx Recruitment (Thailand) Co., Ltd.
+2 Jasmine Building, 12th Floor, Soi Prasanmitr (Sukhumvit 23), Sukhumvit Road, North Klongtoey, Wattana, Bangkok 10110
+Email: support@talentex.co
+Phone: +66-(0)64-902-4936
+
+Representative
+[NAME] Yojiro Koshi
+[ADDRESS & POST CODE] 2 Jasmine Building, 12th Floor, Soi Prasanmitr (Sukhumvit 23), Sukhumvit Road, North Klongtoey, Wattana, Bangkok 10110
+[DEPARTMENT] Office of the President
+[EMAIL] support@talentex.co
+[TEL] +66-(0)64-902-4936
+
+We have appointed a Data Protection Officer. The Data Protection OfficerÅfs contact details are as follows:
+[NAME] Chanisa Srimak
+[ADDRESS & POST CODE] 2 Jasmine Building, 12th Floor, Soi Prasanmitr (Sukhumvit 23), Sukhumvit Road, North Klongtoey, Wattana, Bangkok 10110
+[DEPARTMENT] Business Development Department
+[EMAIL] support@talentex.co
+[TEL] +66-(0)64-902-4936
+Established on [8 May 2019]
+Latest Amendment on [26 Nov 2024]
