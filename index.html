@@ -285,35 +285,41 @@
                             <input type="text" name="entry.966425710" id="entry.966425710" required class="mt-1 block w-full rounded-md border-gray-300 shadow-sm focus:border-wakuwaku-500 focus:ring-wakuwaku-500">
                         </div>
                         <div>
-                            <label for="entry.679029461" class="block text-sm font-medium text-gray-700 mb-1">Eメール<span class="text-wakuwaku-500 ml-1">*</span></label>
-                            <input type="email" name="entry.679029461" id="entry.679029461" required class="mt-1 block w-full rounded-md border-gray-300 shadow-sm focus:border-wakuwaku-500 focus:ring-wakuwaku-500">
+                            <label for="entry.1834593933" class="block text-sm font-medium text-gray-700 mb-1">Eメール<span class="text-wakuwaku-500 ml-1">*</span></label>
+                            <input type="email" name="entry.1834593933" id="entry.1834593933" required class="mt-1 block w-full rounded-md border-gray-300 shadow-sm focus:border-wakuwaku-500 focus:ring-wakuwaku-500">
                         </div>
                         <div>
-                            <label for="entry.495636437" class="block text-sm font-medium text-gray-700 mb-1">お問い合わせ内容<span class="text-wakuwaku-500 ml-1">*</span></label>
+                            <label for="entry.679029461" class="block text-sm font-medium text-gray-700 mb-1">お問い合わせ内容<span class="text-wakuwaku-500 ml-1">*</span></label>
                             <div class="mt-2 space-y-2">
                                 <div class="flex items-center">
-                                    <input type="radio" name="entry.495636437" id="inquiry_1" value="資料がほしい" required class="h-4 w-4 text-wakuwaku-500 focus:ring-wakuwaku-500 border-gray-300">
+                                    <input type="radio" name="entry.679029461" id="inquiry_1" value="資料がほしい" required class="h-4 w-4 text-wakuwaku-500 focus:ring-wakuwaku-500 border-gray-300">
                                     <label for="inquiry_1" class="ml-2 text-sm text-gray-700">資料がほしい</label>
                                 </div>
                                 <div class="flex items-center">
-                                    <input type="radio" name="entry.495636437" id="inquiry_2" value="サービス詳細を知りたい" required class="h-4 w-4 text-wakuwaku-500 focus:ring-wakuwaku-500 border-gray-300">
+                                    <input type="radio" name="entry.679029461" id="inquiry_2" value="サービス詳細を知りたい" required class="h-4 w-4 text-wakuwaku-500 focus:ring-wakuwaku-500 border-gray-300">
                                     <label for="inquiry_2" class="ml-2 text-sm text-gray-700">サービス詳細を知りたい</label>
                                 </div>
                                 <div class="flex items-center">
-                                    <input type="radio" name="entry.495636437" id="inquiry_3" value="料金プランを知りたい" required class="h-4 w-4 text-wakuwaku-500 focus:ring-wakuwaku-500 border-gray-300">
+                                    <input type="radio" name="entry.679029461" id="inquiry_3" value="料金プランを知りたい" required class="h-4 w-4 text-wakuwaku-500 focus:ring-wakuwaku-500 border-gray-300">
                                     <label for="inquiry_3" class="ml-2 text-sm text-gray-700">料金プランを知りたい</label>
                                 </div>
                                 <div class="flex items-center">
-                                    <input type="radio" name="entry.495636437" id="inquiry_4" value="相談したい（採用方法、人材戦略、組織づくり, etc）" required class="h-4 w-4 text-wakuwaku-500 focus:ring-wakuwaku-500 border-gray-300">
+                                    <input type="radio" name="entry.679029461" id="inquiry_4" value="相談したい（採用方法、人材戦略、組織づくり, etc）" required class="h-4 w-4 text-wakuwaku-500 focus:ring-wakuwaku-500 border-gray-300">
                                     <label for="inquiry_4" class="ml-2 text-sm text-gray-700">相談したい（採用方法、人材戦略、組織づくり, etc）</label>
                                 </div>
                             </div>
                         </div>
                         <div>
-                            <label for="entry.625002768" class="block text-sm font-medium text-gray-700 mb-1">メッセージ<span class="text-wakuwaku-500 ml-1">*</span></label>
-                            <textarea name="entry.625002768" id="entry.625002768" rows="4" required class="mt-1 block w-full rounded-md border-gray-300 shadow-sm focus:border-wakuwaku-500 focus:ring-wakuwaku-500"></textarea>
+                            <label for="entry.1699709107" class="block text-sm font-medium text-gray-700 mb-1">メッセージ<span class="text-wakuwaku-500 ml-1">*</span></label>
+                            <textarea name="entry.1699709107" id="entry.1699709107" rows="4" required class="mt-1 block w-full rounded-md border-gray-300 shadow-sm focus:border-wakuwaku-500 focus:ring-wakuwaku-500"></textarea>
                         </div>
                     </div>
+                    <!-- Google Formに必要なhidden fields -->
+                    <input type="hidden" name="fvv" value="1">
+                    <input type="hidden" name="pageHistory" value="0">
+                    <input type="hidden" name="fbzx" value="-5100430664589541727">
+                    <input type="hidden" name="emailAddress" value="">
+                    
                     <div class="mt-8 flex justify-center">
                         <button type="submit" id="submitButton" class="inline-flex items-center justify-center py-3 px-8 border border-transparent shadow-sm text-base font-medium rounded-md text-white bg-wakuwaku-500 hover:bg-wakuwaku-600 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-wakuwaku-500 disabled:opacity-50 disabled:cursor-not-allowed">
                             <span id="submitText">送信する</span>
@@ -350,22 +356,28 @@
             loadingSpinner.classList.remove('hidden');
             
             try {
+                // メールアドレスを自動で同期
+                const emailField = document.getElementById('entry.1834593933');
+                document.querySelector('input[name="emailAddress"]').value = emailField.value;
+                
                 // フォームデータを取得
                 const formData = new FormData(form);
                 
-                // Google FormsのURLにPOSTリクエストを送信
-                await fetch(form.action, {
-                    method: 'POST',
-                    mode: 'no-cors', // Google Formsは異なるオリジンなのでno-corsモードを使用
-                    body: formData
-                });
+                // iframe経由で送信する代替方法
+                const iframe = document.createElement('iframe');
+                iframe.name = 'hidden_iframe';
+                iframe.style.display = 'none';
+                document.body.appendChild(iframe);
                 
-                // フォームを非表示にし、完了メッセージを表示
-                form.classList.add('hidden');
-                thankYouMessage.classList.remove('hidden');
+                form.target = 'hidden_iframe';
+                form.submit();
                 
-                // フォームをリセット
-                form.reset();
+                // 送信完了と見なし、メッセージを表示
+                setTimeout(() => {
+                    form.classList.add('hidden');
+                    thankYouMessage.classList.remove('hidden');
+                    form.reset();
+                }, 1000);
                 
             } catch (error) {
                 console.error('送信エラー:', error);
@@ -420,6 +432,25 @@
             </div>
         </div>
     </footer>
+    <script>
+        window.difyChatbotConfig = {
+         token: 'ocbFd31QDBo75q4Q'
+        }
+       </script>
+       <script
+        src="https://udify.app/embed.min.js"
+        id="ocbFd31QDBo75q4Q"
+        defer>
+       </script>
+       <style>
+         #dify-chatbot-bubble-button {
+           background-color: #1C64F2 !important;
+         }
+         #dify-chatbot-bubble-window {
+           width: 24rem !important;
+           height: 40rem !important;
+         }
+       </style>
 </body>
 </html>
 
